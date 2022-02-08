@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @MapperScan(basePackages = "com.entor.mapper")
 public class RedisStarter {
     /**
-     * 启动类 hot-fix
+     * 启动类 hot-fix test
      * @param args
      */
     public static void main(String[] args) {
