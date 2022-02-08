@@ -7,6 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @MapperScan(basePackages = "com.entor.mapper")
 public class RedisStarter {
+    /**
+     * 启动类
+     * @param args
+     */
     public static void main(String[] args) {
         SpringApplication.run(RedisStarter.class, args);
     }
